@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function() {
 
         const removeButton= createElement('button');
         removeButton.textContent='Remove';
-        removeButton.className='remove-btn'
+        removeButton.classList.add('remove-btn');
 
         removeButton.onlick= function() {
             taskList.removeChild(li);
