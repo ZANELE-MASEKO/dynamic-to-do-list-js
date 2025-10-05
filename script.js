@@ -2,7 +2,7 @@ const { createElement } = require("react");
 
 document.addEventListener('DOMContentLoaded',function() {
 
-    const addbutton= document.getElementById('add-task-btn');
+    const addButton= document.getElementById('add-task-btn');
 
     const taskInput= document.getElementById('task-input');
 
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded',function() {
 
 
     
-    addbutton.addEventListener('click',addTask);
+    addButton.addEventListener('click',addTask);
 
     taskInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
